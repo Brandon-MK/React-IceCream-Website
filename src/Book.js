@@ -13,13 +13,13 @@ class Book extends Component {
           <div className="Nav">
             <a
               style={{ color: "white", cursor: "pointer" }}
-              href="/"
+              href="/React-IceCream-Website/"
               className="nav-link "
             >
               Home
             </a>
             <a
-              href="/Bookings"
+              href="/React-IceCream-Website/Bookings"
               style={{ cursor: "pointer", color: "grey" }}
               className="nav-link "
             >
@@ -29,14 +29,14 @@ class Book extends Component {
               Gelato
             </h4>
             <a
-              href="/Flavours"
+              href="/React-IceCream-Website/Flavours"
               style={{ cursor: "pointer", color: "white" }}
               className="nav-link "
             >
               Flavours
             </a>
             <a
-              href="/About"
+              href="/React-IceCream-Website/About"
               style={{ cursor: "pointer", color: "white" }}
               className="nav-link "
             >

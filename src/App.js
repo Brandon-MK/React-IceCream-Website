@@ -15,13 +15,13 @@ function App() {
           <div className="Nav">
             <a
               style={{ color: "grey", cursor: "pointer" }}
-              href="/"
+              href="/React-IceCream-Website/"
               className="nav-link "
             >
               Home
             </a>
             <a
-              href="/Bookings"
+              href="/React-IceCream-Website/Bookings"
               style={{ cursor: "pointer", color: "white" }}
               className="nav-link "
             >
@@ -31,14 +31,14 @@ function App() {
               Gelato
             </h4>
             <a
-              href="/Flavours"
+              href="/React-IceCream-Website/Flavours"
               style={{ cursor: "pointer", color: "white" }}
               className="nav-link "
             >
               Flavours
             </a>
             <a
-              href="/About"
+              href="/React-IceCream-Website/About"
               style={{ cursor: "pointer", color: "white" }}
               className="nav-link "
             >
@@ -52,7 +52,7 @@ function App() {
               Welcome to Gelato
               <div style={{ fontSize: 35 }}>Natrual and Hand made!</div>
               <div>
-                <Link to="/Flavours">
+                <Link to="/React-IceCream-Website/Flavours">
                   <button
                     type="button"
                     class="btn btn-dark btn-lg"
@@ -78,7 +78,7 @@ function App() {
               With our 70+ natural sweet flavours and 10 syrups to choose from
               and lets not forget the various toppings.
             </div>
-            <Link to="/Flavours">
+            <Link to="/React-IceCream-Website/Flavours">
               <button
                 type="button"
                 class="btn btn-dark btn-lg"
@@ -95,7 +95,7 @@ function App() {
             <div style={{ fontSize: 170 }} className="font4">
               Diary Free
             </div>
-            <Link to="/Flavours">
+            <Link to="/React-IceCream-Website/Flavours">
               <button
                 type="button"
                 class="btn btn-outline-dark btn-lg"
@@ -119,7 +119,7 @@ function App() {
               A place of comfort and design not only is the delicious but its
               also the place is a home away from home.
             </div>
-            <Link to="/About">
+            <Link to="/React-IceCream-Website/About">
               <button
                 type="button"
                 class="btn btn-dark btn-lg"

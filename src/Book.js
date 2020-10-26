@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Book.css";
 import icecream2 from "./1.jpg";
-import { HashRouter } from "react-router-dom";
+import { HashRouter, Link } from "react-router-dom";
 
 class Book extends Component {
   render() {

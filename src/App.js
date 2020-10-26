@@ -2,7 +2,7 @@ import React from "react";
 import area from "./place.jpg";
 import icecream2 from "./icecream.jpg";
 import "./App.css";
-import { HashRouter, Route, Link } from "react-router-dom";
+import { HashRouter, Link } from "react-router-dom";
 
 function App() {
   return (

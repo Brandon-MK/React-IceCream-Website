@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./about.css";
 import icecream2 from "./icecream2.png";
-import { HashRouter } from "react-router-dom";
+import { HashRouter, Link } from "react-router-dom";
 
 class About extends Component {
   render() {

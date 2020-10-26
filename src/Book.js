@@ -13,37 +13,41 @@ class Book extends Component {
           </h1>
           <nav>
             <div className="Nav">
-              <a
-                style={{ color: "white", cursor: "pointer" }}
-                href="/"
-                className="nav-link "
-              >
-                Home
-              </a>
-              <a
-                href="/Bookings"
-                style={{ cursor: "pointer", color: "grey" }}
-                className="nav-link "
-              >
-                Booking
-              </a>
+              <Link to="/">
+                <a
+                  style={{ color: "white", cursor: "pointer" }}
+                  className="nav-link "
+                >
+                  Home
+                </a>
+              </Link>
+              <Link to="/Bookings">
+                <a
+                  style={{ cursor: "pointer", color: "grey" }}
+                  className="nav-link "
+                >
+                  Booking
+                </a>
+              </Link>
               <h4 className="title" style={{ cursor: "pointer" }}>
                 Gelato
               </h4>
-              <a
-                href="/Flavours"
-                style={{ cursor: "pointer", color: "white" }}
-                className="nav-link "
-              >
-                Flavours
-              </a>
-              <a
-                href="/About"
-                style={{ cursor: "pointer", color: "white" }}
-                className="nav-link "
-              >
-                About
-              </a>
+              <Link to="/Flavours">
+                <a
+                  style={{ cursor: "pointer", color: "white" }}
+                  className="nav-link "
+                >
+                  Flavours
+                </a>
+              </Link>
+              <Link to="/About">
+                <a
+                  style={{ cursor: "pointer", color: "white" }}
+                  className="nav-link "
+                >
+                  About
+                </a>
+              </Link>
             </div>
           </nav>
           <div className="Header">

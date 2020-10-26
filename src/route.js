@@ -8,10 +8,10 @@ import Book from "./Book";
 const Router = () => {
   return (
     <HashRouter basename="/">
-      <Route exact path="/React-IceCream-Website" component={App} />
-      <Route path="/React-IceCream-Website/Flavours" component={Flavours} />
-      <Route path="/React-IceCream-Website/Bookings" component={Book} />
-      <Route path="/React-IceCream-Website/About" component={About} />
+      <Route exact path="/" component={App} />
+      <Route path="/Flavours" component={Flavours} />
+      <Route path="/Bookings" component={Book} />
+      <Route path="/About" component={About} />
     </HashRouter>
   );
 };

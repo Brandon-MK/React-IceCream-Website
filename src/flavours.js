@@ -12,6 +12,7 @@ import Lime from "./Flavours/Lime.png";
 import Pistachio from "./Flavours/Pistachio.png";
 import strawberry from "./Flavours/strawberry.png";
 import rasberry from "./Flavours/Rasberry.png";
+import { HashRouter } from "react-router-dom";
 
 class Flavours extends Component {
   render() {

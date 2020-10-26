@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/React-IceCream-Website/precache-manifest.477d7a6d8562bd01a0be261af05d1d9e.js"
+  "/React-IceCream-Website/precache-manifest.db93dceede38a023e353167c8ca14edb.js"
 );
 
 self.addEventListener('message', (event) => {

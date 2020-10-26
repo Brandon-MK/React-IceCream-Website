@@ -2,11 +2,11 @@ import React from "react";
 import area from "./place.jpg";
 import icecream2 from "./icecream.jpg";
 import "./App.css";
-import { Link } from "react-router-dom";
+import { HashRouter, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <HashRouter basename="/">
       <div className="App">
         <h1 className="head">
           500 Terry Francois Street San Francisco, CA 94158 | Daily 10AM-10PM
@@ -15,13 +15,13 @@ function App() {
           <div className="Nav">
             <a
               style={{ color: "grey", cursor: "pointer" }}
-              href="/React-IceCream-Website/"
+              href="/"
               className="nav-link "
             >
               Home
             </a>
             <a
-              href="/React-IceCream-Website/Bookings"
+              href="/Bookings"
               style={{ cursor: "pointer", color: "white" }}
               className="nav-link "
             >
@@ -31,14 +31,14 @@ function App() {
               Gelato
             </h4>
             <a
-              href="/React-IceCream-Website/Flavours"
+              href="/Flavours"
               style={{ cursor: "pointer", color: "white" }}
               className="nav-link "
             >
               Flavours
             </a>
             <a
-              href="/React-IceCream-Website/About"
+              href="/About"
               style={{ cursor: "pointer", color: "white" }}
               className="nav-link "
             >
@@ -52,7 +52,7 @@ function App() {
               Welcome to Gelato
               <div style={{ fontSize: 35 }}>Natrual and Hand made!</div>
               <div>
-                <Link to="/React-IceCream-Website/Flavours">
+                <Link to="/Flavours">
                   <button
                     type="button"
                     class="btn btn-dark btn-lg"
@@ -78,7 +78,7 @@ function App() {
               With our 70+ natural sweet flavours and 10 syrups to choose from
               and lets not forget the various toppings.
             </div>
-            <Link to="/React-IceCream-Website/Flavours">
+            <Link to="/Flavours">
               <button
                 type="button"
                 class="btn btn-dark btn-lg"
@@ -95,7 +95,7 @@ function App() {
             <div style={{ fontSize: 170 }} className="font4">
               Diary Free
             </div>
-            <Link to="/React-IceCream-Website/Flavours">
+            <Link to="/Flavours">
               <button
                 type="button"
                 class="btn btn-outline-dark btn-lg"
@@ -119,7 +119,7 @@ function App() {
               A place of comfort and design not only is the delicious but its
               also the place is a home away from home.
             </div>
-            <Link to="/React-IceCream-Website/About">
+            <Link to="/About">
               <button
                 type="button"
                 class="btn btn-dark btn-lg"
@@ -176,7 +176,7 @@ function App() {
           <h3>© Made by Brandon</h3>
         </div>
       </div>
-    </div>
+    </HashRouter>
   );
 }
 

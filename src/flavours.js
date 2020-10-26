@@ -24,13 +24,13 @@ class Flavours extends Component {
           <div className="Nav">
             <a
               style={{ color: "white", cursor: "pointer" }}
-              href="/React-IceCream-Website/"
+              href="/"
               className="nav-link "
             >
               Home
             </a>
             <a
-              href="/React-IceCream-Website/Bookings"
+              href="/Bookings"
               style={{ cursor: "pointer", color: "white" }}
               className="nav-link "
             >
@@ -40,14 +40,14 @@ class Flavours extends Component {
               Gelato
             </h4>
             <a
-              href="/React-IceCream-Website/Flavours"
+              href="/Flavours"
               style={{ cursor: "pointer", color: "grey" }}
               className="nav-link "
             >
               Flavours
             </a>
             <a
-              href="/React-IceCream-Website/About"
+              href="/About"
               style={{ cursor: "pointer", color: "white" }}
               className="nav-link "
             >

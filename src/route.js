@@ -8,7 +8,7 @@ import Book from "./Book";
 const Router = () => {
   return (
     <Switch>
-      <Route exact path="/" component={App} />
+      <Route exact path="/React-IceCream-Website" component={App} />
       <Route path="/Flavours" component={Flavours} />
       <Route path="/Bookings" component={Book} />
       <Route path="/About" component={About} />

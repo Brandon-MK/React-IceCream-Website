@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b490de5928a423aec86d27de94cb935c",
+    "revision": "8c3c6187318480a3190dbbb4cbe89af9",
     "url": "/React-IceCream-Website/index.html"
   },
   {
-    "revision": "1563e40280a2047c19ea",
+    "revision": "21bae9e0a61dbe1fe387",
     "url": "/React-IceCream-Website/static/css/2.3cf5d70f.chunk.css"
   },
   {
-    "revision": "2dd71dac88d708f9b9d0",
+    "revision": "ca07dc73576cb0c99100",
     "url": "/React-IceCream-Website/static/css/main.8c4af0b5.chunk.css"
   },
   {
-    "revision": "1563e40280a2047c19ea",
-    "url": "/React-IceCream-Website/static/js/2.4a16a91c.chunk.js"
+    "revision": "21bae9e0a61dbe1fe387",
+    "url": "/React-IceCream-Website/static/js/2.271a1453.chunk.js"
   },
   {
     "revision": "10b8ff80054103890476fceb0d8d669d",
-    "url": "/React-IceCream-Website/static/js/2.4a16a91c.chunk.js.LICENSE.txt"
+    "url": "/React-IceCream-Website/static/js/2.271a1453.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2dd71dac88d708f9b9d0",
-    "url": "/React-IceCream-Website/static/js/main.202c8776.chunk.js"
+    "revision": "ca07dc73576cb0c99100",
+    "url": "/React-IceCream-Website/static/js/main.698f0f36.chunk.js"
   },
   {
     "revision": "8f7393c0ab41292abaa2",

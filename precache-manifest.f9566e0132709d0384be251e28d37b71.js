@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f71f67a995cd97142750b66d09acfe9a",
+    "revision": "b490de5928a423aec86d27de94cb935c",
     "url": "/React-IceCream-Website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-IceCream-Website/static/css/2.3cf5d70f.chunk.css"
   },
   {
-    "revision": "db5c99d5049652911e8c",
+    "revision": "2dd71dac88d708f9b9d0",
     "url": "/React-IceCream-Website/static/css/main.8c4af0b5.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-IceCream-Website/static/js/2.4a16a91c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db5c99d5049652911e8c",
-    "url": "/React-IceCream-Website/static/js/main.9472e5de.chunk.js"
+    "revision": "2dd71dac88d708f9b9d0",
+    "url": "/React-IceCream-Website/static/js/main.202c8776.chunk.js"
   },
   {
     "revision": "8f7393c0ab41292abaa2",

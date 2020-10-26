@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.head {
+  background-color: #424242;
+  font-family: "Roboto Slab", serif;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  font-family: "Inconsolata", monospace;
+}
+
+.App {
+  background-color: #fcc44a;
+}
+
+.Nav {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #fff;
+  font-size: x-large;
+  font-family: "Open Sans", sans-serif;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+}
+
+.title:link {
+  border-bottom: #fcc44a;
+  border-bottom-width: 0;
+}
+
+.firstImage {
+  background-image: url("./icecream2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.welcome {
+  font-family: "Open Sans", sans-serif;
+  font-size: 55px;
+  text-align: center;
+  color: ivory;
+  padding: 180px;
+}
+
+.font1 {
+  font-family: "Inconsolata", monospace;
+}
+
+.font2 {
+  font-family: "Satisfy", cursive;
+}
+
+.font3 {
+  font-family: "Inconsolata", monospace;
+}
+
+.font4 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.flavours {
+  align-self: flex-start;
+  width: 770px;
+  height: 600px;
+}
+
+.flav {
+  float: right;
+  text-align: center;
+  align-items: center;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+
+.secondImage {
+  background-image: url("./ice-cream.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-top: -6.3rem;
+}
+
+.events {
+  float: right;
+  align-self: flex-end;
+  width: 750px;
+  height: 100%;
+}
+
+.event-words {
+  text-align: center;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  color: #fff;
+  background-color: #424242;
+  padding-top: 15px;
+  position: absolute;
+  padding: 5em;
+}
+
+.footer-container {
+  background-color: #424242;
+  height: 50%;
+}
+
+.cont-2 {
+  background-color: #fff;
+  align-items: center;
+  margin-bottom: 100px;
+  flex-direction: row;
+  display: flex;
+  text-align: center;
+}
+
+.cont-2-words {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Address div h3 {
+  font-size: 20px;
+}
+
+.Address div {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-family: "Inconsolata", monospace;
+}
+
+.contact div h3 {
+  font-size: 20px;
+}
+
+.contact div {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-family: "Inconsolata", monospace;
+}
+
+.Hours div h3 {
+  font-size: 20px;
+}
+
+.Hours div {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  font-family: "Inconsolata", monospace;
+}
+
+.Mail-listing form {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyright {
+  align-items: center;
+  justify-content: center;
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #fff;
+}

@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.head {
+    background-color: #424242;
+    font-family: "Roboto Slab", serif;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    font-family: "Inconsolata", monospace;
+}
+
+.Flavours {
+    background-color: #42c6ca;
+}
+
+.Nav {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+    font-size: x-large;
+    font-family: "Open Sans", sans-serif;
+}
+
+.Header {
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+
+.font1 {
+    font-family: "Inconsolata", monospace;
+}
+
+.font2 {
+    font-family: "Satisfy", cursive;
+}
+
+.font3 {
+    font-family: "Inconsolata", monospace;
+}
+
+.font4 {
+    font-family: "Bebas Neue", cursive;
+}
+
+.Header h3 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 40px;
+}
+
+.Header h1 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 70px;
+    letter-spacing: 15px;
+    font-weight: bolder;
+}
+
+.FlavSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 3em;
+}
+
+.inner {
+    align-items: center;
+    justify-content: center;
+}
+
+.inner h2 {
+    font-family: "Open Sans", sans-serif;
+}
+
+.borderBottomRight {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    align-items: right;
+    justify-content: right;
+    border-bottom: 2px solid #424242;
+    margin-top: 1rem;
+}
+
+.item1 {
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.item1 h2 {
+    font-family: "Inconsolata", monospace;
+}
+
+.item1 h4 {
+    font-family: "Satisfy", cursive;
+    font-size: 30px;
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    color: #fff;
+    background-color: #424242;
+    position: absolute;
+    padding: 5em;
+}
+
+.footer-container {
+    background-color: #424242;
+    height: 50%;
+    margin-top: 0px;
+}
+
+.cont-2 {
+    background-color: #fff;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+}
+
+.cont-2-words {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Address div h3 {
+    font-size: 20px;
+}
+
+.Address div {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family: "Inconsolata", monospace;
+}
+
+.contact div h3 {
+    font-size: 20px;
+}
+
+.contact div {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family: "Inconsolata", monospace;
+}
+
+.Hours div h3 {
+    font-size: 20px;
+}
+
+.Hours div {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family: "Inconsolata", monospace;
+}
+
+.Mail-listing form {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright {
+    align-items: center;
+    justify-content: center;
+    font-family: "Inconsolata", monospace;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #fff;
+}
